@@ -232,3 +232,40 @@
 }
 
 /* Home */
+
+/* About */
+.about
+{
+    overflow: hidden;
+}
+.about .hero_img{
+}
+.about .hero_img::after{
+    content: "";
+    width: 60%;
+    height: 80%;
+    position: absolute;
+    left: 10px;
+    bottom: -30px;
+    background-image: url(./../imgs/dots.png);
+    background-repeat: repeat;
+    color: black;
+    z-index: -1;
+}
+.about h3{
+    font-size:30px ;
+    font-weight: 800;
+    font-family:Montserrat, sans-serif;
+}
+.about p{
+    color: rgb(153, 153, 153);
+}
+.about .progress{
+    height: 27px;
+    width: 90%;
+}
+.about .btn{
+    width: 180px;
+    border: 1px solid black;
+}
+/* About */
