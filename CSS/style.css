@@ -1,0 +1,234 @@
+/* Home */
+.Home {
+    background-image: url(./../imgs/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Home .cov {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.Home .cov a {
+    font-family: Montserrat, sans-serif;
+}
+
+.Home h3 {
+    font-size: 55px;
+    font-weight: 700;
+
+}
+
+.Home h2 {
+    font-size: 55px;
+    font-weight: 300;
+    color: white;
+}
+
+.Home h2::after {
+    content: " |";
+    animation: text 7s infinite steps(10);
+}
+
+@keyframes text {
+    0% {
+        content: " D|";
+    }
+
+    2% {
+        content: " De|";
+    }
+
+    4% {
+        content: " Dev|";
+    }
+
+    6% {
+        content: " Deve|";
+    }
+
+    8% {
+        content: " Devel|";
+    }
+
+    10% {
+        content: " Develo|";
+    }
+
+    12% {
+        content: " Develop|";
+    }
+
+    14% {
+        content: " Develope|";
+    }
+
+    16% {
+        content: " Developer|";
+    }
+
+    18% {
+        content: " Developer |";
+    }
+    20%{
+        content: " Developer  |";
+    }
+    22%{
+        content: " Developer ! |";
+    }
+    24% {
+        content: " Develope|";
+    }
+
+    26% {
+        content: " Develop|";
+    }
+
+    28% {
+        content: " Develo|";
+    }
+
+    30% {
+        content: " Devel|";
+    }
+
+    32% {
+        content: " Deve|";
+    }
+
+    34% {
+        content: " Dev|";
+    }
+
+    36% {
+        content: " De|";
+    }
+
+    38% {
+        content: " D|";
+    }
+
+    40% {
+        content: " |";
+    }
+
+    42% {
+        content: " Y|";
+    }
+
+    44% {
+        content: " Yo|";
+    }
+
+    46% {
+        content: " You|";
+    }
+
+    48% {
+        content: " Yous|";
+    }
+
+    50% {
+        content: " Youss|";
+    }
+
+    52% {
+        content: " Yousse|";
+    }
+
+    54% {
+        content: " Youssef|";
+    }
+
+    56% {
+        content: " Youssef |";
+    }
+
+    58% {
+        content: " Youssef H|";
+    }
+
+    60% {
+        content: " Youssef Ha|";
+    }
+
+    62% {
+        content: " Youssef Has|";
+    }
+
+    64% {
+        content: " Youssef Hass|";
+    }
+
+    66% {
+        content: " Youssef Hassa|";
+    }
+
+    68% {
+        content: " Youssef Hassan|";
+    }
+
+    70% {
+        content: " Youssef Hassa|";
+    }
+
+    72% {
+        content: " Youssef Hass|";
+    }
+
+    74% {
+        content: " Youssef Has|";
+    }
+
+    76% {
+        content: " Youssef Ha|";
+    }
+
+    78% {
+        content: " Youssef H|";
+    }
+
+    80% {
+        content: " Youssef |";
+    }
+
+    82% {
+        content: " Youssef|";
+    }
+    84% {
+        content: " Yousse|";
+    }
+
+    86% {
+        content: " Youss|";
+    }
+
+    88% {
+        content: " Yous|";
+    }
+
+    90% {
+        content: " You|";
+    }
+
+    92% {
+        content: " Yo|";
+    }
+
+    94% {
+        content: " Y|";
+    }
+
+    96% {
+        content: " |";
+    }
+    98% {
+        content: " ";
+    }
+    100% {
+        content: " |";
+    }
+}
+
+/* Home */
