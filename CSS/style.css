@@ -1,3 +1,6 @@
+.clr{
+    clear: both;
+}
 /* Home */
 .Home {
     background-image: url(./../imgs/bg.jpg);
@@ -240,6 +243,10 @@
 }
 .about .hero_img{
 }
+.about .hero_img img{
+    width: 80%;
+}
+
 .about .hero_img::after{
     content: "";
     width: 60%;
@@ -269,3 +276,27 @@
     border: 1px solid black;
 }
 /* About */
+.service{
+    background-color: #F7F7F7;
+    overflow: hidden;
+}
+.service .box .card{
+    width: 95%;
+    height: 98%;
+}
+.service .card i :hover{
+    color: red;
+}
+.changes-color{
+    width:50px;
+    height: 50px;
+    background-color:#F7F7F7;
+    border-radius: 50%;
+    margin-left: auto ;
+    margin-right: auto;
+}
+.service .card:hover .changes-color{
+    color: white;
+    background-color: black;
+    transition-duration: 0.7s;
+}
