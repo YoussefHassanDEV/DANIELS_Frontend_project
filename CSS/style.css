@@ -250,7 +250,6 @@
     overflow: hidden;
 }
 
-.about .hero_img {}
 
 .about .hero_img img {
     width: 80%;
@@ -364,22 +363,22 @@
     overflow: hidden;
 
     background-color: #F7F7F7;
+    color: black;
     /* background-color: black; */
+}
+.client p{
+    color: black;
 }
 .client img{
     width: 75px;
-    filter: invert(100%);
+    /* filter: invert(100%); */
 
     border-radius: 50%;
 }
 .carousel-control-prev-icon, .carousel-control-next-icon {
     overflow: hidden;
 
-    /* filter: invert(100%); */
-}
-#carouselExampleIndicators{
     filter: invert(100%);
-
 }
 /* Client */
 .stats{
