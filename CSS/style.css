@@ -1,7 +1,9 @@
 .clr {
     clear: both;
 }
-
+:root{
+    overflow-x: hidden;
+}
 /* Home */
 .Home {
     background-image: url(./../imgs/bg.jpg);
@@ -359,6 +361,8 @@
 
 /* Client */
 .client{
+    overflow: hidden;
+
     background-color: #F7F7F7;
     /* background-color: black; */
 }
@@ -369,6 +373,7 @@
     border-radius: 50%;
 }
 .carousel-control-prev-icon, .carousel-control-next-icon {
+    overflow: hidden;
 
     /* filter: invert(100%); */
 }
@@ -377,3 +382,6 @@
 
 }
 /* Client */
+.stats{
+    overflow: hidden;
+}
