@@ -276,17 +276,25 @@
     border: 1px solid black;
 }
 /* About */
+/* Services */
 .service{
     background-color: #F7F7F7;
     overflow: hidden;
 }
+.service .box {
+    border-style: none;
+    border: 0px;
+}
 .service .box .card{
-    width: 95%;
-    height: 98%;
+    width: 100%;
+    height: 92%;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    border-style: none;
+    border: 0px;
 }
-.service .card i :hover{
-    color: red;
-}
+
 .changes-color{
     width:50px;
     height: 50px;
@@ -300,3 +308,4 @@
     background-color: black;
     transition-duration: 0.7s;
 }
+/* Services */
