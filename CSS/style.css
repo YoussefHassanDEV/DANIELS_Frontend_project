@@ -1,6 +1,7 @@
-.clr{
+.clr {
     clear: both;
 }
+
 /* Home */
 .Home {
     background-image: url(./../imgs/bg.jpg);
@@ -74,12 +75,15 @@
     18% {
         content: " Developer |";
     }
-    20%{
+
+    20% {
         content: " Developer  |";
     }
-    22%{
+
+    22% {
         content: " Developer ! |";
     }
+
     24% {
         content: " Develope|";
     }
@@ -199,6 +203,7 @@
     82% {
         content: " Youssef|";
     }
+
     84% {
         content: " Yousse|";
     }
@@ -226,9 +231,11 @@
     96% {
         content: " |";
     }
+
     98% {
         content: " ";
     }
+
     100% {
         content: " |";
     }
@@ -237,17 +244,17 @@
 /* Home */
 
 /* About */
-.about
-{
+.about {
     overflow: hidden;
 }
-.about .hero_img{
-}
-.about .hero_img img{
+
+.about .hero_img {}
+
+.about .hero_img img {
     width: 80%;
 }
 
-.about .hero_img::after{
+.about .hero_img::after {
     content: "";
     width: 60%;
     height: 80%;
@@ -259,33 +266,40 @@
     color: black;
     z-index: -1;
 }
-.about h3{
-    font-size:30px ;
+
+.about h3 {
+    font-size: 30px;
     font-weight: 800;
-    font-family:Montserrat, sans-serif;
+    font-family: Montserrat, sans-serif;
 }
-.about p{
+
+.about p {
     color: rgb(153, 153, 153);
 }
-.about .progress{
+
+.about .progress {
     height: 27px;
     width: 90%;
 }
-.about .btn{
+
+.about .btn {
     width: 180px;
     border: 1px solid black;
 }
+
 /* About */
 /* Services */
-.service{
+.service {
     background-color: #F7F7F7;
     overflow: hidden;
 }
+
 .service .box {
     border-style: none;
     border: 0px;
 }
-.service .box .card{
+
+.service .box .card {
     width: 100%;
     height: 92%;
     padding-left: 10px;
@@ -295,17 +309,50 @@
     border: 0px;
 }
 
-.changes-color{
-    width:50px;
+.changes-color {
+    width: 50px;
     height: 50px;
-    background-color:#F7F7F7;
+    background-color: #F7F7F7;
     border-radius: 50%;
-    margin-left: auto ;
+    margin-left: auto;
     margin-right: auto;
 }
-.service .card:hover .changes-color{
+
+.service .card:hover .changes-color {
     color: white;
     background-color: black;
     transition-duration: 0.7s;
 }
+
 /* Services */
+/* Work */
+.works {
+    overflow: hidden;
+}
+
+.works .card {
+    width: 96%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.works .card img {
+    width: 100%;
+    ;
+}
+
+.works .card .hov {
+    width: 100%;
+    height: 111%;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: 0.4s;
+}
+
+.works .card:hover .hov {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Work */
