@@ -356,3 +356,24 @@
 }
 
 /* Work */
+
+/* Client */
+.client{
+    background-color: #F7F7F7;
+    /* background-color: black; */
+}
+.client img{
+    width: 75px;
+    filter: invert(100%);
+
+    border-radius: 50%;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+
+    /* filter: invert(100%); */
+}
+#carouselExampleIndicators{
+    filter: invert(100%);
+
+}
+/* Client */
